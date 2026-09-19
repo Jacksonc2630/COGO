@@ -58,3 +58,15 @@ To compile and upload this project using the Arduino IDE, install the following 
 4. **Operation**:
    * Watch the OLED cycle through the default screens every 5 to 30 seconds.
    * Press the toggle button on **Pin 2** to switch into dedicated distance measurement laser mode at any time.
+
+---
+
+## Code
+
+1. COGO.ino: The main integrated source sketch for the Arduino smartwatch and safety system.
+
+2. AxisAccelerometer.ino: Manages orientation, movement, and motion tracking for the wearable setup.
+
+3. BluetoothModuleCOGO.ino: Handles wireless data transmission and module-to-module communication.
+
+4. HELMET_COGO.ino: Dedicated control code for the smart safety helmet hardware integrations.
