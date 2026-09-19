@@ -1,6 +1,6 @@
 # Construction Workers on the Go (COGO)
 
-COGO is a C++ based wearable safety system integrating an Arduino smartwatch and helmet module equipped with bio-sensors and environmental monitoring. It features real-time hazard alerts, dynamic multi-screen OLED feedback, and proximity detection to enhance safety for construction personnel on-site.
+COGO is a C++-based wearable safety system integrating an Arduino smartwatch and helmet module equipped with biosensors and environmental monitoring. It features real-time hazard alerts, dynamic multi-screen OLED feedback, and proximity detection to enhance safety for construction personnel on-site.
 
 ---
 
@@ -63,10 +63,10 @@ To compile and upload this project using the Arduino IDE, install the following 
 
 ## Code
 
-1. COGO.ino: The main integrated source sketch for the Arduino smartwatch and safety system.
+* COGO.ino: The main integrated source sketch for the Arduino smartwatch and safety system.
 
-2. AxisAccelerometer.ino: Manages orientation, movement, and motion tracking for the wearable setup.
+* AxisAccelerometer.ino: Manages orientation, movement, and motion tracking for the wearable setup.
 
-3. BluetoothModuleCOGO.ino: Handles wireless data transmission and module-to-module communication.
+* BluetoothModuleCOGO.ino: Handles wireless data transmission and module-to-module communication.
 
-4. HELMET_COGO.ino: Dedicated control code for the smart safety helmet hardware integrations.
+* HELMET_COGO.ino: Dedicated control code for the smart safety helmet hardware integrations.
